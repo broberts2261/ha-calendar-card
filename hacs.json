@@ -1,0 +1,8 @@
+{
+  "name": "Calendar Card",
+  "description": "A Lovelace card that displays a day view and week grid with event popups and todo support.",
+  "render_readme": true,
+  "content_in_root": true,
+  "filename": "calendar-card.js",
+  "homeassistant": "2023.4.0"
+}
