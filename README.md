@@ -1,4 +1,3 @@
-
 # Calendar Card for Home Assistant
 
 A clean, minimal Lovelace card that shows your week at a glance.
@@ -13,7 +12,6 @@ A clean, minimal Lovelace card that shows your week at a glance.
 - 🌍 **Timezone safe** — all-day events display on the correct local day
 
 <img width="540" height="645" alt="ha-calendar-card-preview" src="https://github.com/user-attachments/assets/97bdeb07-63fe-4620-af99-c0a08888b93e" />
-
 
 ---
 
@@ -48,6 +46,23 @@ todo_entity: todo.your_tasks
 |---|---|---|
 | `calendar_entity` | ✅ Yes | HA calendar entity ID |
 | `todo_entity` | No | HA todo entity ID |
+
+---
+
+## Event Popups
+
+Tapping any event — in either the day panel or the week grid — opens a detail popup with the full event information.
+
+The popup shows:
+
+| Field | Description |
+|---|---|
+| 📅 **Date** | Full date including weekday (e.g. Thursday, June 12) |
+| 🕐 **Time** | Start and end time, or "All day" for all-day events |
+| 📍 **Location** | Only shown if a location is set on the event |
+| 📝 **Notes** | Event description / notes, with HTML stripped out |
+
+Dismiss the popup by clicking the **✕** button, clicking the dark backdrop, or pressing `Escape`.
 
 ---
 
