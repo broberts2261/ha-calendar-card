@@ -1,3 +1,4 @@
+
 # Calendar Card for Home Assistant
 
 A clean, minimal Lovelace card that shows your week at a glance.
@@ -11,6 +12,7 @@ A clean, minimal Lovelace card that shows your week at a glance.
 - 🎨 **Theme aware** — uses HA CSS variables for colors and fonts
 - 🌍 **Timezone safe** — all-day events display on the correct local day
 
+<img width="720" height="860" alt="ha-calendar-card-preview" src="https://github.com/user-attachments/assets/97bdeb07-63fe-4620-af99-c0a08888b93e" />
 ---
 
 ## Installation
